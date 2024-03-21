@@ -1,6 +1,6 @@
 version: 1.0.0
 
-name: Phi-2
+name: TinyLlama-1.1B-Chat-v1.0
 import_source: GIT
 
 # you can choose the options between ONNX, TENSORFLOW, PYTORCH
