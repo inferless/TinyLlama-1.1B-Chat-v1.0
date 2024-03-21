@@ -37,6 +37,6 @@ optional:
   input_file_name: input.json
   output_file_name: output.json
   runtime_file_name: inferless-runtime-config.yaml
-model_url: https://github.com/inferless/Phi-2.git
+model_url: https://github.com/inferless/TinyLlama-1.1B-Chat-v1.0.git
 provider: GITHUB
 io_schema: true
