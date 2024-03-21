@@ -1,18 +1,5 @@
-# Tutorial - Deploy Phi-2 using Inferless
-
-Check out [this tutorial](https://guides.inferless.com/how-to-finetune-quantize-and-inference-phi-2) which will guide you through the process of deploying a Phi-2 model using Inferless.
-
-## TL;DR - Deploy Phi-2 using Inferless:
-- Deployment of Deploy Phi-2 model using [vLLM](https://github.com/vllm-project/vllm).
-- By using the vLLM, you can expect an average latency of 1.34 sec using an A100 GPU(80GB).
-- Dependencies defined in inferless-runtime-config.yaml.
-- GitHub/GitLab template creation with app.py and config.yaml.
-- Model class in app.py with initialize, infer, and finalize functions.
-- Custom runtime creation with necessary system and Python packages.
-- Model import via GitHub with input/output parameters in JSON.
-- Recommended GPU: NVIDIA A100 for optimal performance.
-- Custom runtime selection in advanced configuration.
-- Final review and deployment on the Inferless platform.
+# TinyLlama-1.1B-Chat-v1.0
+The TinyLlama project aims to train a compact 1.1B model on 3 trillion tokens. It shares architecture and tokenizer with Llama 2, making it compatible with many existing projects. With only 1.1B parameters, it's suitable for applications with limited computational and memory resources.
 
 ---
 ## Prerequisites
